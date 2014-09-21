@@ -6,4 +6,4 @@ Module = zkillwatch
 Description = Throwup stats on a zkill link mentioned in chat
 
 [Python]
-Version=3
+Version=2+
