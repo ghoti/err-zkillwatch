@@ -30,7 +30,7 @@ class ZkillWatch(BotPlugin):
     @staticmethod
     def ship_name(itemId):
         try:
-            ship = invtypes[itemId]
+            ship = invtypes[str(itemId)]
         except KeyError:
             #this should never happen?
             ship = '???'
